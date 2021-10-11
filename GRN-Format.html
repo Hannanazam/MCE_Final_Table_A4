@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEHRAN COMMERCIAL INVOICE</title>
+    <link rel="icon" href="{{ asset('assets/img/logo.ico') }}" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+    <div class="container_table">
+        <br><br>
+        <div class="row_table">
+            <div class="col-md-6_table">
+                <!-- <h3>Purchase Order Invoice</h3> -->
+            </div>
+            <div class="col-md-6_table text-right_table">
+                <a value='Print'onclick='printDiv();' class="btn_table btn-success_table"><i
+                        class="fa fa-print"></i> Print</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="DivPrint">
+        <br>
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <page size="A4">
+
+        <div class="container seta4size">
+            <div class="main_container">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="grn">
+                            <div class="card-body p-0">
+                                <div class="header_main setpadding">
+                                    <strong>
+                                        <p style="margin-left: 10px;">GST :</p>
+                                    </strong>
+                                    <div class="col-md-12 text-center_table">
+                                        <h4 class="mb-1_table" style="text-decoration:underline;"><strong>Stock Transfer
+                                                Memo</strong></h4>
+                                        <h3 class="mb-1_table"><strong>Mehran Commercial Enterprices</strong></h3>
+                                        <h6>LE-24/A-01, Korangi Creek Industrial Park, Karachi</h6>
+                                    </div>
+                                    </div>
+                                    <div class="row_table">
+                                        <div class="col-md-6_table borderset">
+                                            <p class="mb-1_table">No. <span style="margin-left: 100px !important;">: 042</span>
+                                            </p>
+                                            <p class="mb-1_table"><strong>Source MC:</strong> <br>IRFAN TRADERS</p>
+                                        </div>
+    
+                                        <div class="col-md-6_table borderset">
+                                            <p class="mb-1_table">Dated <span style="margin-left: 100px !important;">:
+                                                    29-06-2021</span></p>
+                                            <p class="mb-1_table"><strong>Target MC:</strong> <br>A.N. Enterprises <br>LS-22,
+                                                Commercial Area, FB Area, Karachi</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 px-0 text-center_table">
+                                        <table class="table_table" cellspacing="0">
+                                            <thead>
+                                                <tr style="text-align: center !important;">
+                                                    <th scope="col" class="border">S.N</th>
+                                                    <th scope="col" class="border text-left_table">Description of Goods</th>
+                                                    <th scope="col" class="border text-right_table">Qty</th>
+                                                    <th scope="col" class="border">Unit</th>
+                                                    <th scope="col" class="border">Price</th>
+                                                    <th scope="col" class="border">Amount(Rs.)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1.</td>
+                                                    <td class="text-left_table">HB-034 HARD BOARD ST TRIM REAR RH</td>
+                                                    <td class="text-right_table">500,0000</td>
+                                                    <td class="text-left_table">Nos.</td>
+                                                    <td class="text-right_table">158.56</td>
+                                                    <td class="text-right_table">79,280.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2.</td>
+                                                    <td class="text-left_table">HB-034 HARD BOARD ST TRIM BACK DOOR</td>
+                                                    <td class="text-right_table">1,000,0000</td>
+                                                    <td class="text-left_table">Nos.</td>
+                                                    <td class="text-right_table">158.56</td>
+                                                    <td class="text-right_table">1,58,560.00</td>
+                                                </tr>
+
+
+                                            </tbody>
+                                            <tfoot>
+                                                <tr class="bordertop text-right_table">
+                                                    <td colspan="2">Grand Total</td>
+                                                    <td>1,500.0000</td>
+                                                    <td colspan="2" class="text-left_table">Nos.</td>
+                                                    <td>2,37,840.00</td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                        <p class="text-left_table ml-2_table"><strong>Rupess Two Lakh Thirty Seven Thousand Eight
+                                                Hundred Forty Only</strong></p>
+
+                                    </div>
+                                    <div class="col-md-12" style="padding: 0px !important;">
+                                        <div class="footer"
+                                            style="border-top: 1px solid #000; padding: 50px 20px 0px 20px !important; font-weight: bold !important;">
+                                            <div class="justify-content-end_table">
+                                                <p class="text-right_table">for Mehran Commercial Enterprises</p>
+                                                <br>
+                                                <p class="text-right_table">Authorised Signatory</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <br><br>
+        </div>
+</page>
+
+
+    </div>
+    <script>
+        function printDiv() {
+
+            var divToPrint = document.getElementById('DivPrint');
+
+            var newWin = window.open('', 'Print-Window');
+
+            newWin.document.open();
+
+            newWin.document.write('<html><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <link rel="stylesheet" href="style.css"><body onload="window.print()">' + divToPrint.innerHTML + '</body></html>');
+
+            newWin.document.close();
+
+
+        }
+    </script>
+</body>
+
+</html>

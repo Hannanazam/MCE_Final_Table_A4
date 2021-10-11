@@ -1,0 +1,95 @@
+
+    body{
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        .row_table{
+        display: flex;
+        /* flex-wrap: wrap; */
+        }
+        .col-md-6_table{
+            width: 50%;
+        }
+        .text-center_table{
+            text-align: center;
+        }
+        h3{
+            font-size: 1.75rem;
+        }
+        h6{
+            font-size: 1rem;
+        }
+        h4{
+            font-size: 1.5rem;
+        }
+        /* strong{
+            font-weight: bolder;
+        } */
+        p{
+            margin-top: 0px;
+        }
+        h3,
+        h6,
+        h4{
+            margin: 0px;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+        .mb-1_table{
+            margin-bottom:.25rem;
+        }
+        .table_table{
+            width: 100%;
+        margin-bottom: 1rem;
+        color: #212529;
+        border-collapse: collapse;
+        }
+        .table_table tr:last-child td {
+        padding-bottom: 200px !important;
+    }
+    .table_table td{
+        border-right: 1px solid #000;
+        font-size: 12px;
+        padding: .75rem .75rem 0rem .75rem;
+    }
+    .table_table tr:nth-child(1) td{
+        padding-top: 50px;
+    }
+    .d-flex_table{
+        display: flex;
+    }
+    .justify-content-between_table{
+        justify-content: space-between;
+    }
+    .col-md-4_table,
+    .col-md-12_table{
+        padding: 0px 15px;
+    }
+    .text-right_table{
+        text-align: right;
+    }
+    .container_table{
+        margin: 0px 105px;
+    }
+    .btn_table{
+        font-weight: 400;
+        color: #212529;
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        cursor: pointer;
+    }
+    .btn-success_table{
+        color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+    .bordertop{
+        border: 1px solid;
+    }
